@@ -1,0 +1,9 @@
+{
+	"name": "kundan-adf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2e20929d-5e80-4c48-ba4e-114d6b2e0560",
+		"tenantId": "22875f5b-1061-4033-bd65-7981faca4c2f"
+	}
+}
