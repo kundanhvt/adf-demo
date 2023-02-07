@@ -1,0 +1,52 @@
+{
+	"name": "employeedata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BlobLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "employee.csv",
+				"container": "output1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "country",
+				"type": "String"
+			},
+			{
+				"name": "rank",
+				"type": "String"
+			},
+			{
+				"name": "games_played",
+				"type": "String"
+			},
+			{
+				"name": "goal_against",
+				"type": "String"
+			},
+			{
+				"name": "goals",
+				"type": "String"
+			},
+			{
+				"name": "wining_team_average",
+				"type": "String"
+			},
+			{
+				"name": "losing_team_average",
+				"type": "String"
+			}
+		]
+	}
+}
